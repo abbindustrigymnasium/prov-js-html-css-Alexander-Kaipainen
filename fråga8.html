@@ -11,7 +11,17 @@
 
     <script>
         // Här ska din JavaScript kod vara
-
+        let numbers = [12, 25, 37, 43, 59, 61]
+        numbers.filter(filterEvenNumbers)
+        function filterEvenNumbers(number){
+            number = [];
+            for (let i in numbers){
+                if (numbers[i]%2 == 1){
+                    return number = numbers[i];
+                }
+            }
+        }
+        console.log(number)
 
     </script>
 </body>
